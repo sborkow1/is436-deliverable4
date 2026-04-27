@@ -3,8 +3,8 @@ This project involves the creation of a web app which will allow users to pay fo
 them to download videos of billiards matches recorded at a specific establishment.
 
 ### Technology
-Bootstrap - UX Design
-Javascript - Client-side website functionality
-HTML/CSS - To create the website
-PHP - Server-side scripting languages
-MySQL - Database functionality
+Bootstrap - UX Design  
+Javascript - Client-side website functionality  
+HTML/CSS - To create the website  
+PHP - Server-side scripting languages  
+MySQL - Database functionality  
