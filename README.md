@@ -1,11 +1,21 @@
+# CueVision
+Interactive website detailing a billards recording system
 
-  # Interactive Pool Website Prototype
+## How to Run
+docker pull camronmdb/CueVision:latest
+docker run -p 8080:80 camronmdb/CueVision:latest
+Open http://localhost:8080
 
-  This is a code bundle for Interactive Pool Website Prototype. The original project is available at https://www.figma.com/design/9GBY0njiw4OhRgU8kcOpI8/Interactive-Pool-Website-Prototype.
+## Features
+- Login / Face ID
+- Registration + payment
+- Dashboard
+- Record matches
+- Retrieve recordings
 
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+## Team
+- Camron Headen
+- Madeline Davis
+- Stephen Borkowicz
+- Wilfried Dim
+- Jeffrey Buah
