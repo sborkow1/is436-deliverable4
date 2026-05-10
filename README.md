@@ -3,7 +3,9 @@ Interactive website detailing a billards recording system
 
 ## How to Run
 docker pull camronmdb/CueVision:latest
+
 docker run -p 8080:80 camronmdb/CueVision:latest
+
 Open http://localhost:8080
 
 ## Features
