@@ -1,11 +1,43 @@
+# CueVision
+CueVision is a billiards match recording and retrieval system. Players can create an account, log in, record their pool matches using an overhead table camera, and retrieve past recordings to review their gameplay.
 
-  # Interactive Pool Website Prototype
+## pull image
+docker pull camronmdb/cuevision:latest
 
-  This is a code bundle for Interactive Pool Website Prototype. The original project is available at https://www.figma.com/design/9GBY0njiw4OhRgU8kcOpI8/Interactive-Pool-Website-Prototype.
+##run container
+docker run -p 8080:80 camronmdb/cuevision:latest
 
-  ## Running the code
+### open in browser
+Open http://localhost:8080
 
-  Run `npm i` to install the dependencies.
+## Features
+- Login / Face ID
+- Registration + payment
+- Dashboard
+- Record matches
+- Retrieve recordings
 
-  Run `npm run dev` to start the development server.
-  
+### Demo credentials
+- Username: `demo`
+- Password: `pool123`
+
+## Docker Hub
+Image URL: https://hub.docker.com/r/camronmdb/cuevision/tags
+
+## Tech Stack
+- React + TypeScript
+- Vite
+- Motion (Framer Motion)
+- HTML
+- CSS
+- JS
+- React Router
+- Nginx (production container)
+- Docker + GitHub Actions
+
+## Team
+- Camron Headen
+- Madeline Davis
+- Stephen Borkowicz
+- Wilfried Dim
+- Jeffrey Buah
