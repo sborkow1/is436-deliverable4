@@ -10,6 +10,9 @@ docker run -p 8080:80 camronmdb/cuevision:latest
 ### open in browser
 Open http://localhost:8080
 
+### stopping container
+docker stop $(docker ps -q)
+
 ## Features
 - Login / Face ID
 - Registration + payment
