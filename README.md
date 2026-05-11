@@ -4,7 +4,7 @@ CueVision is a billiards match recording and retrieval system. Players can creat
 ## pull image
 docker pull camronmdb/cuevision:latest
 
-##run container
+## run container  
 docker run -p 8080:80 camronmdb/cuevision:latest
 
 ### open in browser
