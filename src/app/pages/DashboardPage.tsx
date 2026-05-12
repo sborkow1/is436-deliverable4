@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { EightBall } from '../components/EightBall';
 
 const stats = [
-  { label: 'Games Played', value: '47' },
+  { label: 'Games Played', value: '48' },
   { label: 'Win Rate', value: '63%' },
   { label: 'Best Streak', value: '8' },
 ];
