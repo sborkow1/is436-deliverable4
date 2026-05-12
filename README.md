@@ -27,6 +27,9 @@ docker stop $(docker ps -q) 2>/dev/null || true
 ## Docker Hub
 Image URL: https://hub.docker.com/r/camronmdb/cuevision/tags
 
+## group project timeline
+URL: https://github.com/users/middeko/projects/1/views/1
+
 ## Tech Stack
 - React + TypeScript
 - Vite
